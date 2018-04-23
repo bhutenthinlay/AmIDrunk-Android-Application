@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background_image_light_beer"
+    >
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/speed_dial_message"
+            android:textStyle="italic|bold"
+            android:layout_gravity="center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="150">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/one" />
+
+                <TextView
+                    android:id="@+id/textViewOneName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kunsang"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/textViewOneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8000669160"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/two" />
+
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/textViewTwoName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kunsang"
+
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/textViewTwoNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8000669160"
+
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/three" />
+
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/textViewThreeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kunsang"
+
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/textViewThreeNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8000669160"
+
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="150">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewFour"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/four" />
+
+                <TextView
+                    android:id="@+id/textViewFourName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kunsang"
+
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/textViewFourNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8000669160"
+
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewFive"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/five" />
+
+                <TextView
+                    android:id="@+id/textViewFiveName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kunsang"
+
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/textViewFiveNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8000669160"
+
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewSix"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/six" />
+
+                <TextView
+                    android:id="@+id/textViewSixName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kunsang"
+
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/textViewSixNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8000669160"
+
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="150">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewSeven"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/seven" />
+
+                <TextView
+                    android:id="@+id/textViewSevenName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kunsang"
+
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/textViewSevenNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8000669160"
+
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewEight"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/eight" />
+
+                <TextView
+                    android:id="@+id/textViewEightName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kunsang"
+
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/textViewEightNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8000669160"
+
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewNine"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/nine" />
+
+                <TextView
+                    android:id="@+id/textViewNineName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kunsang"
+
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/textViewNineNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8000669160"
+
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="150">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <ImageView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp" />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                     />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                  />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewZero"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/zero" />
+
+                <TextView
+                    android:id="@+id/textViewZeroName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kunsang"
+
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:id="@+id/textViewZeroNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8000669160"
+
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:src="@drawable/back"
+                    android:id="@+id/speedDialBack"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                   />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    />
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>

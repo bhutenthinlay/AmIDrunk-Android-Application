@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AmIDrunk</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="am_i_drunk_theme_color">#1a6457</string>
+    <string name="activate_message">Click on the Empty Glass to Enable "Am I Drunk"</string>
+    <string name="deactivate_message">Click on the Glass to Disable "Am I Drunk"</string>
+    <string name="lock_message">You are probably drunk... either speed dial or unlock your mobile</string>
+    <string name="text_color">#ffffff</string>
+    <string name="speed_dial_message">Long Press on number to call...</string>
+    <string name="dialog_Title">Am I Drunk?</string>
+    <string name="dialog_Message">Am I Drunk has Locked the Device. You must answer 3 question correctly to unlock your device</string>
+    <string name="dialog_Message_correct">Great... You are probably not yet drunk... </string>
+    <string name="dialog_Message_wrong">Sorry... You are probably drunk... be careful</string>
+    <string name="dialog_background">#c52285</string>
+    <string name="dialog_cancel">Cancel</string>
+
+
+</resources>

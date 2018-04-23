@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c52285"
+    >
+
+    <TextView
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/dialog_Title"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#DADADA" />
+
+    <TextView
+
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="10 sec"
+        android:id="@+id/textViewQuestion1Time"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="18dp"/>
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Solve below question:"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="37+86"
+        android:id="@+id/textViewQuestion1"
+        android:padding="10dp" />
+    <EditText
+        android:textSize="30dp"
+        android:hint="Your Answer Here"
+        android:layout_margin="20dp"
+        android:background="#ffffff"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:id="@+id/editTextAnswer1"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#DADADA" />
+
+    <LinearLayout
+        android:weightSum="100"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:background="#37c3c6"
+            android:layout_weight="50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_cancel"
+            android:id="@+id/buttonQuestion1Cancel"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:textSize="30dp"
+            android:layout_margin="10dp"
+            android:textColor="#ffffff"
+            android:background="#37c3c6"
+            android:layout_weight="50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/buttonQuestion1OK"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

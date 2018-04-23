@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_image_light_beer"
+    >
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/lock_message"
+        android:id="@+id/textViewLockMessage"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:weightSum="100"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_weight="50"
+            android:layout_margin="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/phone"
+            android:id="@+id/imageViewSpeedDial"/>
+        <ImageView
+            android:layout_weight="50"
+            android:layout_margin="40dp"
+            android:src="@drawable/lock"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/imageViewUnlock"/>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
